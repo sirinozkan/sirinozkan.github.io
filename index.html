@@ -1,312 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sirin Ozkan - Civil Engineer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sirin Ozkan - Civil Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <style>
-        .xxxl {
-            font-size: 4vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .xxxl {
-              font-size: 6vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .xxxl {
-              font-size: 8vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .xxxl {
-              font-size: 12vw;
-            }
-          }
-          
-          .xxl {
-            font-size: 2.45vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .xxl {
-              font-size: 3.375vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .xxl {
-              font-size: 4.5vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .xxl {
-              font-size: 6.75vw;
-            }
-          }
-          
-          .xl {
-            font-size: 1.5vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .xl {
-              font-size: 2.25vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .xl {
-              font-size: 3vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .xl {
-              font-size: 4.5vw;
-            }
-          }
-          
-          .lg {
-            font-size: 1.25vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .lg {
-              font-size: 1.875vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .lg {
-              font-size: 2.5vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .lg {
-              font-size: 3.75vw;
-            }
-          }
-          
-          .default {
-            font-size: 1.15vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .default {
-              font-size: 1.725vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .default {
-              font-size: 2.3vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .default {
-              font-size: 3.45vw;
-            }
-          }
-          
-          .med {
-            font-size: 1vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .med {
-              font-size: 1.5vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .med {
-              font-size: 2vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .med {
-              font-size: 3vw;
-            }
-          }
-          
-          .sm {
-            font-size: 0.9vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .sm {
-              font-size: 1.35vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .sm {
-              font-size: 1.8vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .sm {
-              font-size: 2.7vw;
-            }
-          }
-          
-          .xs {
-            font-size: 0.8vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .xs {
-              font-size: 1.2vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .xs {
-              font-size: 1.6vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .xs {
-              font-size: 2.4vw;
-            }
-          }
-          
-          .xxs {
-            font-size: 0.7vw;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            .xxs {
-              font-size: 1.05vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            .xxs {
-              font-size: 1.4vw;
-            }
-          }
-          @media (max-width: 500px) {
-            .xxs {
-              font-size: 2.1vw;
-            }
-          }
-          
-          body {
-            height: 100vh;
-            width: 100vw;
-            margin: 0;
-            padding: 6vw 10vw;
-            font-size: 1.15vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            box-sizing: border-box;
-          }
-          @media (max-width: 1040px) and (min-width: 771px) {
-            body {
-              font-size: 1.725vw;
-            }
-          }
-          @media (max-width: 770px) and (min-width: 501px) {
-            body {
-              font-size: 2.3vw;
-            }
-          }
-          @media (max-width: 500px) {
-            body {
-              font-size: 3.45vw;
-            }
-          }
-          
-          html {
-            font-family: 'Raleway', arial, sans-serif;
-            color: rgba(0, 0, 0, 1);
-            background-size: cover;
-          }
-          html * {
-            font-weight: 200;
-          }
-          
-          h1, h2 {
-            margin: 0 auto .25em;
-          }
-          
-          h2 {
-            color: rgba(0, 0, 0, 1);
-          }
-          
-          .card {
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            position: relative;
-            padding: 6vw 10vw;
-            box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
-            border-radius: .5rem;
-            animation-name: cardDrop;
-            animation-iteration-count: 1;
-            animation-timing-function: all;
-            animation-duration: 1s;
-          }
-          @keyframes cardDrop {
-            0% {
-              transform: translateY(-100px);
-            }
-          }
-          .gravatar {
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/sirinozkan.jpg" alt="" /></span>
+							<h1>Sirin Ozkan</h1>
+							<p>Civil Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/sirinozkan" class="icon brands fa-linkedin">Twitter</a></li>
+								<li><a href="mailto:sirinozkan@outlook.com" class="icon fa-envelope">Instagram</a></li>
+								<li><a href="./assets/sirinozkan-resume.pdf" class="icon fa-file-text resume">Resume</a></li>
+							</ul>
+						</footer>
+					</section>
 
-            border-radius: 100%;
-            margin-bottom: 1em;
-            height: 95px;
-            width: 95px;
-            background: url("https://instagram.fist3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/36160681_275865499651410_7118124401458937856_n.jpg?_nc_ht=instagram.fist3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=Yyt6Ith6ewQAX-sEjCc&oh=34e9329b47b1f8e2fc5660371f87df94&oe=5F29EACD") center;
-            background-size: 200%;
-            overflow: hidden;
-            background-position: -40px 180px;
-        
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<!-- <li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+						</ul>
+					</footer>
 
+			</div>
 
-          }
-          
-          .social {
-            margin-top: 3vw;
-            color: rgba(0, 0, 0, 0.45);
-          }
-          .social i {
-            box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.1), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.1), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
-            border-radius: 100%;
-            margin: 0 2px;
-            padding: .66em;
-            width: 1em;
-            text-align: center;
-            animation: btnBulge 1s;
-            animation-delay: .8s;
-          }
-          .social i:hover {
-            cursor: pointer;
-            box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.08), 0 -10px 15px -1px white, inset 0 3px 4px -1px rgba(0, 0, 0, 0.05), inset 0 0 5px 1px rgba(255, 255, 255, 0.3), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
-          }
-          @keyframes btnBulge {
-            0% {
-              transform: scale(1);
-            }
-            20% {
-              transform: scale(1.5);
-            }
-            60% {
-              transform: scale(0.75);
-            }
-            80% {
-              transform: scale(1.1);
-            }
-          }
-          
-    </style>
-</head>
-<body>
+		<!-- Scripts -->
+		<script src="https://use.fontawesome.com/eeef494571.js"></script>
 
-    <div class="card">
-        <div class="gravatar lark"></div>
-        <h1 class="xxl">Sirin Ozkan</h1>
-        <h2 class="lg">Civil Engineer</h2>
-      
-        <div class="social default">
-          <a href="mailto:sirinozkan@outlook.com"> <i class="fa fa-envelope"></i></a>
-          <a href="https://www.linkedin.com/in/sirinozkan" target="_blank"><i class="fa fa-linkedin"></i></a>
-        </div>
-        
-      </div>
-</body>
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
